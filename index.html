@@ -60,7 +60,7 @@
 <script>
     var erdao_tag = "<a class=\"footer-links link-site\" target='_blank' href=\"https://erdao.me\">Erdao</a>";
     var tescat_tag = "<a class=\"footer-links link-site\" target='_blank' href=\"http://tesercat.com/\">Tesseract</a>\n";
-    if (parseInt(Math.floor(Math.random() * 2))) {
+    if (Math.round(Math.random())) {
         document.getElementsByClassName("footer")[0].insertAdjacentHTML("afterBegin", erdao_tag);
         document.getElementsByClassName("footer")[0].insertAdjacentHTML("afterBegin", tescat_tag);
     } else {
