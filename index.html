@@ -1,2 +1,70 @@
-Team Burnham310
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Team B310</title>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="logo.svg">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="badge.css">
+</head>
+<body>
+<section class="section column-section section-bio">
+    <figure class="logo" ></figure>
+    <p class="bio">Hi, we're the Team Burnham 310. </p>
+</section>
+<section class="section column-section-main">
+    <div class="col-section">
+        <h2 class="main-text">Work</h2>
+        <dl class="list">
+            <dt class="main-text main-text-small">Null</dt>
+            <dd class="list-item">
+                <a class="list-link" >Nothing yet</a>
+            </dd>
+        </dl>
+    </div>
+    <div class="col-section">
+        <h2 class="main-text">In process</h2>
+        <dl class="list">
+            <dt class="main-text main-text-small">CourseSeeker</dt>
+            <dd class="list-item">
+                <a class="list-link" href="https://github.com/Burnham310/CourseSeeker/">uiuc course register script</a>
+            </dd>
+            <dl class="list">
+                <dt class="main-text main-text-small">AutoNote</dt>
+                <dd class="list-item">
+                    <a class="list-link" href="https://github.com/Burnham310/AutoNote/">Review sheet generator</a>
+                </dd>
+            </dl>
+        </dl>
+    </div>
+</section>
+<footer class="footer main-text main-text-small">
+    <a class="footer-links link-site" href="https://burnham310.github.io/">© Burnham310</a>
+    <div class="scrunch" aria-hidden="true"></div>
+</footer>
+</body></html>
+
+<style>
+    .logo {
+        background: url(logo.svg) no-repeat;
+        background-position: top left, top left;
+        background-repeat: no-repeat;
+        background-size: auto, auto 100%;
+        width: 50px;
+        height: 50px;
+        padding: 0;
+        margin: 0;
+    }
+</style>
+
+<script>
+    var erdao_tag = "<a class=\"footer-links link-site\" target='_blank' href=\"https://erdao.me\">Erdao</a>";
+    var tescat_tag = "<a class=\"footer-links link-site\" target='_blank' href=\"http://tesercat.com/\">Tesseract</a>\n";
+    if (Math.floor(Math.random() * 2)) {
+        document.getElementsByClassName("footer")[0].insertAdjacentHTML("afterBegin", erdao_tag);
+        document.getElementsByClassName("footer")[0].insertAdjacentHTML("afterBegin", tescat_tag);
+    } else {
+        document.getElementsByClassName("footer")[0].insertAdjacentHTML("afterBegin", tescat_tag);
+        document.getElementsByClassName("footer")[0].insertAdjacentHTML("afterBegin", erdao_tag);
+    }
+</script>
